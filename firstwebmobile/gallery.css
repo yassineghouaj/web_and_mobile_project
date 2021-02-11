@@ -1,0 +1,18 @@
+.container-gallary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img{
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+
+.container-gallary .card-img span{
+    display: block;
+    text-align: center;
+}
